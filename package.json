@@ -1,6 +1,6 @@
 {
   "name": "qa_cypress_web",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Projeto de testes automatizados com cypress",
   "main": "index.js",
   "scripts": {
