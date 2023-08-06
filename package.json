@@ -1,0 +1,15 @@
+{
+  "name": "qa_cypress_web",
+  "version": "1.0.0",
+  "description": "Projeto de testes automatizados com cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagosouza10/qa_cypress_web.git"
+  },
+  "author": "Thiago de Souza",
+  "license": "MIT"
+}
