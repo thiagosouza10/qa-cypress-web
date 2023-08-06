@@ -24,9 +24,21 @@ class Deliver {
         cy.get(el.inputComplemento).should('be.visible').type(complemento)
     }
 
-    selecionarMetodoEntrega() {
-        cy.get(el.btnMoto).eq(0).should('be.visible').and('have.text', 'Moto').and('be.visible').click()
-        cy.get(el.classSelecionadaMoto).should('be.visible')
+    selecionarMetodoEntrega(metodoEntrega) {
+        switch (metodoEntrega) {
+            case 'Moto':
+                cy.get(el.btnMoto).eq(0).should('be.visible').and('have.text', metodoEntrega).and('be.visible').click()
+                cy.get(el.classSelecionada).should('be.visible')
+                break
+            case 'Bicicleta':
+                cy.get(el.btnMoto).eq(1).should('be.visible').and('have.text', metodoEntrega).and('be.visible').click()
+                cy.get(el.classSelecionada).should('be.visible')
+                break
+            case 'Van/Carro':
+                cy.get(el.btnMoto).eq(2).should('be.visible').and('have.text', metodoEntrega).and('be.visible').click()
+                cy.get(el.classSelecionada).should('be.visible')
+                break
+        }
     }
 
     efetuarUploadCnh({ caminhoArquivo, nomeArquivo }) {

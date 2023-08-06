@@ -13,11 +13,13 @@ export const ELEMENTS = {
     inputComplemento: 'input[placeholder="Complemento"]',
     //Elementos métodos de entrega
     btnMoto: 'li > span',
-    classSelecionadaMoto: 'li[class="selected"]',
+    classSelecionada: 'li[class="selected"]',
     //Elemento upload cnh
     txtCnh: '.dropzone > p',
     inputFile: 'input[type="file"]',
     //Elementos popup de cadastro com sucesso
     txtTituloPopup: '#swal2-title',
     btnFecharPopup: 'button[class="swal2-confirm swal2-styled"]',
+    // Mensagens de erro
+    txtMensagemErroMetodoEntrega: 'fieldset:nth-child(4) > span',
 }

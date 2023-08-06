@@ -8,7 +8,11 @@ class Utilidades {
         const _fakerCpf = faker.br.cpf()
         const _fakerNomeCompleto = `${faker.name.firstName()} ${faker.name.lastName()}`
         const _fakerEmail = faker.internet.email()
-        const _fakerTelefone = faker.phone.phoneNumber()
+        // Telefone está sendo gerado dessa forma para poder mostrar array no projeto
+        const _dddsValidos = ['11', '21', '31', '41', '48', '61']
+        const _dddEstado = faker.random.arrayElement(_dddsValidos);
+        const _numeroTelefone = faker.random.number({ min: 10000000, max: 99999999 });
+        const _fakerTelefone = `(${_dddEstado})9${_numeroTelefone}`;
         return {
             cpf: _fakerCpf,
             nomeCompleto: _fakerNomeCompleto,
