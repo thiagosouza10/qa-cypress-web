@@ -12,7 +12,11 @@
   },
   "author": "Thiago de Souza",
   "license": "MIT",
+  
   "devDependencies": {
     "cypress": "^12.17.3"
+  },
+  "dependencies": {
+    "faker-br": "^0.4.1"
   }
 }
