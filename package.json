@@ -1,10 +1,12 @@
 {
   "name": "qa_cypress_web",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Projeto de testes automatizados com cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "open": "npx cypress open",
+    "testes": "cypress run --headless --browser chrome",
+    "suite": "cypress run --headless --browser chrome --spec cypress/e2e/cadastro.cy.js"
   },
   "repository": {
     "type": "git",
@@ -12,9 +14,9 @@
   },
   "author": "Thiago de Souza",
   "license": "MIT",
-  
   "devDependencies": {
-    "cypress": "^12.17.3"
+    "cypress": "^12.17.3",
+    "cypress-mochawesome-reporter": "^3.5.1"
   },
   "dependencies": {
     "faker-br": "^0.4.1"
