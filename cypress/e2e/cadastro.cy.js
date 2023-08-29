@@ -1,11 +1,9 @@
 /// <reference types="cypress" />
 
-//#region Classes, elementos e bibliotecas
 import Home from "../support/pages/home/index"
 import Deliver from "../support/pages/deliver/index"
 import Utilidades from "../support/utilidades"
 const elDeliver = require('../support/pages/deliver/elements').ELEMENTS
-//#endregion
 
 
 describe('Cadastro de entregador para Buger Eats', () => {
