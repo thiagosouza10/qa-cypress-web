@@ -13,6 +13,7 @@ module.exports = defineConfig({
     autoOpen: false,
   },
   video: false,
+  projectId: "ci9ip5",
 
   e2e: {
     setupNodeEvents(on, config) {
