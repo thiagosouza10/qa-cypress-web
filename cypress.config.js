@@ -10,7 +10,7 @@ module.exports = defineConfig({
     reportTitle: 'Relatório de testes automatizados - Buger Eats',
     reportDir: './logs/',
     embeddedScreenshots: true,
-    autoOpen: true,
+    autoOpen: false,
   },
   video: false,
 
