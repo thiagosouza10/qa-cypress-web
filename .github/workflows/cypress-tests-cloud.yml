@@ -25,5 +25,3 @@ jobs:
         env:
           CYPRESS_RECORD_KEY: 0ab91200-4c1a-4902-8868-8d384d46bab8
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
