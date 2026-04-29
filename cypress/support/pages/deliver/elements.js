@@ -1,5 +1,4 @@
-export const ELEMENTS = {
-    
+export const el = {
     txtTituloDeliver: 'form > h1',
     //Elementos dos dados de usuário
     inputNomeCompleto: 'input[placeholder="Nome completo"]',
@@ -21,5 +20,5 @@ export const ELEMENTS = {
     txtTituloPopup: '#swal2-title',
     btnFecharPopup: 'button[class="swal2-confirm swal2-styled"]',
     // Mensagens de erro
-    txtMensagemErroMetodoEntrega: 'fieldset:nth-child(4) > span',
+    txtMensagemErroMetodoEntrega: 'span[class="alert-error"]',
 }

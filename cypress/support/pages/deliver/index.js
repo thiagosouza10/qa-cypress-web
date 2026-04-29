@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
-const el = require('./elements').ELEMENTS
-const elHome = require('../home/elements').ELEMENTS
+const el = require('./elements').el
+const elHome = require('../home/elements').el
 
 class Deliver {
 
