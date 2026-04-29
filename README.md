@@ -2,6 +2,11 @@
 
 Projeto de testes automatizados com Cypress para o aplicativo Buger Eats.
 
+## Modelo com Page Objects
+
+O padrão Page Object é utilizado neste projeto para organizar e centralizar a interação com os elementos da interface.
+Cada página da aplicação possui um arquivo responsável por mapear seus seletores e ações, promovendo maior reutilização e manutenção dos testes.
+
 ## Estrutura do Projeto
 
 ```
