@@ -17,7 +17,7 @@ jobs:
         browser: [electron, chrome, firefox]
 
     container:
-      image: cypress/browsers:node-20.16.0-chrome-127.0.6533.88-1-ff-128.0.3-edge-127.0.2651.74-1
+      image: cypress/browsers:node-24.15.0-chrome-147.0.7727.101-1-ff-150.0-edge-147.0.3912.60-1
       options: --user 1001
 
     steps:
